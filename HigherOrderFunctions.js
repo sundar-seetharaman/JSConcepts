@@ -34,10 +34,10 @@ const ages = [33, 45, 57, 85, 65, 23, 41, 25, 14, 35, 65];
 // );
 // console.log(retailCompanies);
 
-// const companyNames=companies.map(function (company) {
-//     return company.name;
-// });
-// console.log(companyNames)
+const companyNames = companies.map(function (company) {
+  return company.name;
+});
+console.log(companyNames);
 
 //   const testMap = companies.map(
 //     (company) =>
